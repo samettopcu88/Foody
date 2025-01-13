@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foody.DataAccessLayer", "Fo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.BusinessLayer", "Foody.BusinessLayer\Foody.BusinessLayer.csproj", "{07980A8B-99F4-4452-B7A3-4C942D64B984}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.PresentationLayer", "Foody.PresentationLayer\Foody.PresentationLayer.csproj", "{49F8FEAD-49F8-4EA7-8B37-0C309D305AD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.PresentationLayer", "Foody.PresentationLayer\Foody.PresentationLayer.csproj", "{BECE3E89-6316-4C32-BC12-467D103C634F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{07980A8B-99F4-4452-B7A3-4C942D64B984}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07980A8B-99F4-4452-B7A3-4C942D64B984}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07980A8B-99F4-4452-B7A3-4C942D64B984}.Release|Any CPU.Build.0 = Release|Any CPU
-		{49F8FEAD-49F8-4EA7-8B37-0C309D305AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{49F8FEAD-49F8-4EA7-8B37-0C309D305AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{49F8FEAD-49F8-4EA7-8B37-0C309D305AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{49F8FEAD-49F8-4EA7-8B37-0C309D305AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BECE3E89-6316-4C32-BC12-467D103C634F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BECE3E89-6316-4C32-BC12-467D103C634F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BECE3E89-6316-4C32-BC12-467D103C634F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BECE3E89-6316-4C32-BC12-467D103C634F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
