@@ -1,12 +1,21 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Foody.BusinessLayer.Abstract;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Foody.PresentationLayer.Controllers
 {
     public class CategoriesController : Controller
     {
-        public IActionResult Index()
+        private readonly ICategoryService _categoryService;
+
+        public CategoriesController(ICategoryService categoryService)
         {
-            return View();
+            _categoryService = categoryService;
+        }
+
+        public IActionResult CategoryList()
+        {
+            var values = _categoryService.TGetAll();
+            return View(values);
         }
     }
 }
