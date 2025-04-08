@@ -17,6 +17,8 @@ builder.Services.AddScoped<IProductDal, EfProductDal>();
 builder.Services.AddScoped<IProductService, ProductManager>();
 builder.Services.AddScoped<ISliderDal, EfSliderDal>();
 builder.Services.AddScoped<ISliderService, SliderManager>();
+builder.Services.AddScoped<IAboutDal, EfAboutDal>();
+builder.Services.AddScoped<IAboutService, AboutManager>();
 
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
