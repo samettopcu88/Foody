@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace Foody.DataAccessLayer.Abstract
 {
-    public interface IFeatureDal:IGenericDal<Feature>
+    public interface IFeatureDal : IGenericDal<Feature>
     {
+        List<Feature> FeatureListByStatusTrue();
     }
 }
